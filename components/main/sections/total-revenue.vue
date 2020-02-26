@@ -41,7 +41,7 @@
             'maximum': selected === 'maximum',
             'this-week': selected === 'this week',
             'last-week': selected === 'last week'
-          }">$<animated-number :value="amountToShow" :round="true" :duration="600"/></div>
+          }">$<animated-number :value="amountToShow" :round="true" :duration="amountToShow / 20"/></div>
       </div>
     </div>
     <!-- /.d-flex -->
@@ -109,6 +109,11 @@
     }
     .menu {
       cursor: pointer;
+      -webkit-transform: translate(8px, -14px);
+      -moz-transform: translate(8px, -14px);
+      -ms-transform: translate(8px, -14px);
+      -o-transform: translate(8px, -14px);
+      transform: translate(8px, -14px);
       &:hover {
         svg circle {
           fill: #b6b6b6;

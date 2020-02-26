@@ -51,6 +51,7 @@
 
 <script>
   import AnimatedNumber from "animated-number-vue/src/AnimatedNumber";
+
   export default {
     name: 'bookings-section',
     components: {AnimatedNumber},
@@ -85,6 +86,11 @@
     }
     .menu {
       cursor: pointer;
+      -webkit-transform: translate(8px, -14px);
+      -moz-transform: translate(8px, -14px);
+      -ms-transform: translate(8px, -14px);
+      -o-transform: translate(8px, -14px);
+      transform: translate(8px, -14px);
       &:hover {
         svg circle {
           fill: #b6b6b6;

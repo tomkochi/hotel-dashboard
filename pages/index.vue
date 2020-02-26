@@ -45,7 +45,7 @@
     section#main {
       background: #f8f7f6;
       height: calc(100vh - 120px);
-      padding: 20px 20px 0 20px;
+      padding: 20px;
       overflow-x: hidden;
       overflow-y: auto;
     }
