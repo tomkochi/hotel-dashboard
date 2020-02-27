@@ -60,7 +60,7 @@
           },
           options: {
             animation: {
-              duration: 0
+              duration: 1
             },
             legend: {
               display: false

@@ -61,7 +61,7 @@
             cutoutPercentage: 70,
             rotation: 1.5 * Math.PI,
             animation: {
-              duration: 0
+              duration: 1
             },
             tooltips: {
               enabled: false
