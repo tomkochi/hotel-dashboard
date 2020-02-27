@@ -17,7 +17,7 @@
       <div class="left">
         <div class="total-visits">
           <div class="number">
-            <animated-number :value="totalVisits" :round="true" :duration="totalVisits / 5"/>
+            <animated-number :value="totalVisits" :round="true" :duration="totalVisits / 2"/>
           </div>
           <div class="text">Total Visits</div>
         </div>

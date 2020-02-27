@@ -16,7 +16,7 @@
     <div class="middle d-flex justify-content-between align-items-center">
       <div class="left">
         <div class="number">
-          <animated-number :value="data.total" :round="true" :duration="500"/>
+          <animated-number :value="data.total" :round="true" :duration="4500"/>
         </div>
         <div class="text">Total calls</div>
       </div>
@@ -24,7 +24,7 @@
       <div class="v-line"></div>
       <div class="center text-center">
         <div class="number">
-          <animated-number :value="data.missed" :round="true" :delay="700"/>
+          <animated-number :value="data.missed" :round="true" :duration="3500" :delay="1000"/>
         </div>
         <div class="text">Missed calls</div>
       </div>

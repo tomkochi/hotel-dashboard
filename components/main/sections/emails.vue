@@ -16,7 +16,7 @@
     <div class="middle d-flex justify-content-between align-items-center">
       <div class="left">
         <div class="number">
-          <animated-number :value="data.total" :round="true" :duration="data.total * 10"/>
+          <animated-number :value="data.total" :round="true" :duration="4000"/>
         </div>
         <div class="text">Total calls</div>
       </div>

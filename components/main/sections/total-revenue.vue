@@ -17,12 +17,8 @@
         <div class="chart d-flex align-items-center">
           <div class="heading text-right">Occupancy</div>
           <div
-            @mouseenter.self="select('maximum')"
-            @mouseleave.self="select('this week')"
             class="maximum"></div>
           <div
-            @mouseenter.stop="select('last week')"
-            @mouseleave.self="select('this week')"
             class="last-week"
             :style="{ width: lastW / maximum* 100 + '%' }"></div>
           <div
@@ -41,7 +37,7 @@
             'maximum': selected === 'maximum',
             'this-week': selected === 'this week',
             'last-week': selected === 'last week'
-          }">$<animated-number :value="amountToShow" :round="true" :duration="300"/></div>
+          }">$<animated-number :value="amountToShow" :round="true" :duration="amountToShow / 5"/></div>
       </div>
     </div>
     <!-- /.d-flex -->

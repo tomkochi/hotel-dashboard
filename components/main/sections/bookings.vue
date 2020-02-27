@@ -18,13 +18,9 @@
           <div class="heading text-right">Available Rooms vs Booked</div>
           <div class="total d-flex">
             <div
-              @mouseenter="roomsToShow = exc"
-              @mouseleave="roomsToShow = total"
               class="executive"
               :style="{ width: exc / total * 100 + '%' }"></div>
             <div
-              @mouseenter="roomsToShow = dlx"
-              @mouseleave="roomsToShow = total"
               class="deluxe"
               :style="{ width: dlx / total * 100 + '%' }"></div>
           </div>
@@ -36,7 +32,7 @@
         </div>
         <!-- /.chart -->
         <div class="total-booking">
-          <animated-number :value="roomsToShow" :round="true" :duration="300"/>
+          <animated-number :value="roomsToShow" :round="true" :duration="roomsToShow * 50"/>
         </div>
       </div>
     </div>
