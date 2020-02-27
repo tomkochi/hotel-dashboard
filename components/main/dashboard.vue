@@ -48,7 +48,7 @@
       </div>
       <!-- /.facebook -->
       <div class="referral-traffic section">
-        <referral-traffic-section/>
+        <referral-traffic-section :data="rtData"/>
       </div>
       <!-- /.referral-traffic -->
     </div>
@@ -94,7 +94,19 @@
           followers: ~~(Math.random() * 2000 + 2000),
           target: ~~(Math.random() * 2 + 4) * 1000,
           max: ~~(Math.random() * 3 + 6) * 1000,
+        },
+        rtData: {
+          labels: ['Twitter', 'Facebook', 'Google +'],
+          data: this.randomRtData()
         }
+      }
+    },
+    methods: {
+      randomRtData () {
+        const n1 = ~~(Math.random() * 50)
+        const n2 = ~~(Math.random() * 50)
+        const n3 = 100 - (n1 + n2)
+        return [n1, n2, n3]
       }
     },
     components: {

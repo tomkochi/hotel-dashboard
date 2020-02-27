@@ -14,7 +14,7 @@
     <!-- /.top -->
 
     <div class="middle d-flex justify-content-between align-items-center">
-      <div class="chart w-75 d-flex justify-content-center">
+      <div class="chart w-75">
         <canvas id="bar-chart" height="250"></canvas>
       </div>
       <!-- /.chart -->
@@ -60,11 +60,13 @@
             maintainAspectRatio: false,
             cutoutPercentage: 70,
             rotation: 1.5 * Math.PI,
-            animation: { animateRotate : true, animateScale: true },
+            animation: {
+              duration: 0
+            },
             tooltips: {
               enabled: false
             },
-            devicePixelRatio: 3,
+            devicePixelRatio: 2,
             scales: {
               xAxes: [{
                 gridLines: {

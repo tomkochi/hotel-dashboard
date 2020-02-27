@@ -36,7 +36,7 @@
         </div>
         <!-- /.chart -->
         <div class="total-booking">
-          <animated-number :value="roomsToShow" :round="true" :duration="500"/>
+          <animated-number :value="roomsToShow" :round="true" :duration="300"/>
         </div>
       </div>
     </div>

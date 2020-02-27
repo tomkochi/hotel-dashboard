@@ -107,7 +107,7 @@
                 }
               }],
             },
-            devicePixelRatio: 3,
+            devicePixelRatio: 2,
             layout: {
               padding: {
                 left: -10,

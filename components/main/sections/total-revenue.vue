@@ -41,7 +41,7 @@
             'maximum': selected === 'maximum',
             'this-week': selected === 'this week',
             'last-week': selected === 'last week'
-          }">$<animated-number :value="amountToShow" :round="true" :duration="amountToShow / 20"/></div>
+          }">$<animated-number :value="amountToShow" :round="true" :duration="300"/></div>
       </div>
     </div>
     <!-- /.d-flex -->
