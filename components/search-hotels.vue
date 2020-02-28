@@ -33,7 +33,7 @@
       <!-- /.hotel -->
       <div class="hotel">
         <div class="left">
-          <img class="rounded-circle" src="https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg" alt="">
+          <img class="rounded-circle" src="http://hawaiiecodivers.com/wp-content/uploads/2017/04/kayak.jpg" alt="">
         </div>
         <div class="right">
           <div class="name">Orchid Hotels</div>
@@ -44,7 +44,7 @@
       <!-- /.hotel -->
       <div class="hotel">
         <div class="left">
-          <img class="rounded-circle" src="https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg" alt="">
+          <img class="rounded-circle" src="https://cdn131.picsart.com/320528925214201.jpg?type=webp&to=min&r=640" alt="">
         </div>
         <div class="right">
           <div class="name">Our Native Village</div>
@@ -55,7 +55,7 @@
       <!-- /.hotel -->
       <div class="hotel">
         <div class="left">
-          <img class="rounded-circle" src="https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg" alt="">
+          <img class="rounded-circle" src="https://cdn131.picsart.com/319439072285201.jpg?type=webp&to=min&r=640" alt="">
         </div>
         <div class="right">
           <div class="name">Kumarakam Lake Resort</div>
@@ -66,7 +66,7 @@
       <!-- /.hotel -->
       <div class="hotel">
         <div class="left">
-          <img class="rounded-circle" src="https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg" alt="">
+          <img class="rounded-circle" src="https://islandora.marmot.org/islandora/object/fortlewis:98/datastream/MC/view" alt="">
         </div>
         <div class="right">
           <div class="name">Wonderla</div>
@@ -77,7 +77,7 @@
       <!-- /.hotel -->
       <div class="hotel">
         <div class="left">
-          <img class="rounded-circle" src="https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg" alt="">
+          <img class="rounded-circle" src="https://cdn131.picsart.com/310681183251201.jpg?type=webp&to=min&r=640" alt="">
         </div>
         <div class="right">
           <div class="name">Stay Simple</div>
@@ -88,7 +88,7 @@
       <!-- /.hotel -->
       <div class="hotel">
         <div class="left">
-          <img class="rounded-circle" src="https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg" alt="">
+          <img class="rounded-circle" src="https://api.audiotool.com/track/wu78ea5xv/cover/512.jpg" alt="">
         </div>
         <div class="right">
           <div class="name">Justa Resorts </div>
