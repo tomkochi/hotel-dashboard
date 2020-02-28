@@ -13,8 +13,8 @@
     </div>
     <!-- /.top -->
 
-    <div class="middle d-flex justify-content-between align-items-center">
-      <div class="left">
+    <div class="middle d-flex align-items-center justify-content-between">
+      <div class="left d-inline-block">
         <div class="total-visits">
           <div class="number">
             <animated-number :value="totalVisits" :round="true" :duration="totalVisits / 2"/>
@@ -24,11 +24,11 @@
         <!-- /.total-visits -->
       </div>
       <!-- /.left -->
-      <div class="v-line"></div>
-      <div class="right">
+      <div class="v-line d-inline-block"></div>
+      <div class="right d-inline-block">
         <div class="label">Last 7 days</div>
         <div class="chart border">
-          <canvas id="line-chart" height="30"></canvas>
+          <canvas id="line-chart"></canvas>
         </div>
         <!-- /.chart -->
       </div>
@@ -175,8 +175,8 @@
     .middle {
       height: 100%;
       .left {
+        width: 100px;
         .total-visits {
-          width: 100px;
           .number {
             font-size: 50px;
             font-weight: 300;
@@ -190,6 +190,7 @@
         }
       }
       .right {
+        width: calc(100% - 160px);
         .label {
           font-size: 12px;
           font-weight: 300;
@@ -197,7 +198,7 @@
           margin-bottom: 10px;
         }
         .chart {
-          width: 100%;
+          height: 30px !important;
           canvas {
             width: 50%;
           }

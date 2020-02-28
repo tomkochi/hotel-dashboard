@@ -1,6 +1,8 @@
 <template>
   <div class="d-flex">
-    <div class="search d-flex justify-content-center align-items-center">
+    <div
+      @click="$bus.$emit('show-search')"
+      class="search d-flex justify-content-center align-items-center">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 16 19">
         <g fill="none" fill-rule="evenodd" stroke="#FFF" transform="translate(1 1)">
           <circle cx="6.5" cy="6.5" r="6.5"/>
@@ -69,6 +71,7 @@
     height: 40px;
     width: 75px;
     background: #1fa386;
+    cursor: pointer;
   }
   .marquee {
     height: 40px;
