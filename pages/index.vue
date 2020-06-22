@@ -11,7 +11,9 @@
     </section>
     <!-- /#ssn -->
 
-    <section id="main"
+    <section
+      @click="showSearch = false"
+      id="main"
       :style="{ 'padding-left': showSideBar ? '95px' : '20px' }">
       <dashboard/>
     </section>
